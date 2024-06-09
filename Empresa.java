@@ -1,4 +1,3 @@
-package empresa;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -111,7 +110,8 @@ public class Empresa {
             String nuevoCliente = nombre + " " + apellido + ", " + correo + ", " + telefono + ", " + rut + ". ";
             clientes.add(nuevoCliente);
 
-            System.out.println("Información ingresada: " + nombre + " " + apellido + " " + correo + " " + telefono + ".");
+            System.out
+                    .println("Información ingresada: " + nombre + " " + apellido + " " + correo + " " + telefono + ".");
 
             System.out.println("¿Desea ingresar otra información de cliente? (S/N):");
             String respuesta = scanner.nextLine();
