@@ -25,7 +25,7 @@ public class Empresa {
             System.out.println("Ingrese Contraseña:");
             password = scanner.nextLine();
 
-            if (usuario.equals("Usuario") && password.equals("contraseña")) {
+            if (usuario.equals("Usuario") && password.equals("clave")) {
                 System.out.println("Inicio de sesión");
                 break;
             } else {
